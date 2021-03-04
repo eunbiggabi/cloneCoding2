@@ -1,0 +1,179 @@
+body {
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.wrapper-one {
+  width: 100%;
+  height: 72px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  background-color: rgba(255, 255, 255);
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
+}
+
+.wrapper-one-nav {
+  max-width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.wrapper-one ul {
+  display: flex;
+}
+
+.container {
+  max-width: 65%;
+  margin: 81px auto 0 auto;
+  box-sizing: content-box;
+  padding: 60px 20px;
+}
+
+ul {
+  list-style: none;
+  color: rgb(38, 38, 38);
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.profile {
+  display: flex;
+  width: 100%;
+}
+
+.profile-user {
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+}
+
+.profile-image {
+  flex: 1;
+}
+
+.profile-user-settings {
+  display: flex;
+  align-items: center;
+}
+
+.profile-stats ul {
+  display: flex;
+  padding: 0;
+}
+
+.profile-stats ul li {
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #1395e8;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  color: white;
+  flex-basis: 100px;
+  height: 30px;
+  margin: 5px 0 0 20px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+.btn:active {
+  opacity: 0.5;
+  outline: none;
+}
+
+.wrapper-three {
+  margin-top: 60px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.gallery > img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.instagram-logo {
+  border-right: 1px solid #000;
+  margin-right: 16px;
+  padding-right: 16px;
+  height: 28px;
+}
+
+.logo-instagram-box {
+  display: flex;
+}
+
+.instagram-logo-text {
+  margin-top: 3px;
+  width: 110px;
+}
+
+.logo-instagram-box:active {
+  opacity: 0.5;
+  outline: none;
+}
+
+.find-people {
+  margin-right: 40px;
+}
+
+.activity-feed {
+  margin-right: 40px;
+}
+
+.unsplash-profile-logo {
+  width: 180px;
+  margin: 30px 0 0 140px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 50%;
+}
+
+li > span {
+  font-weight: bold;
+  color: rgb(38, 38, 38);
+}
+
+.profile-bio > a {
+  text-decoration: none;
+  color: rgb(2, 31, 19);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: -1px;
+}
+
+.profile-bio {
+  line-height: 25px;
+}
+
+.profile-bio span {
+  color: rgb(38, 38, 38);
+}
+
+.profile-real-name {
+  font-weight: bold;
+  color: rgb(38, 38, 38);
+}
+
+.gift {
+  width: 20px;
+}
